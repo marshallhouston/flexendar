@@ -1,3 +1,31 @@
-.calendar {
+body {
+  background: rgb(47, 62, 78);
+  height: 1000px;
 }
 
+.calendar * {
+  color: white;
+  border: 1px solid;
+  border-color: white;
+}
+
+article {
+  width: 195px;
+  height: 100px;
+  text-align: right;
+}
+
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.day {
+  background: rgb(215, 87, 70);
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  font-size: 35px;
+  font-family: sans-serif;
+}
